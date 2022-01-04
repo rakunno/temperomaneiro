@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background-color: black;
+    background-image: url(../img/Bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+header {
+    width: 100vw;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+.header {
+    width: 1200px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+}
+.header ul, li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.0);
+    height: 28px;
+
+}
+.header a:hover{
+    color: #34C759;
+    border-bottom: 3px solid;
+    height: 28px;
+
+}
+
+.logo {
+    color: #34C759;
+    font-size: 35px;
+}
+
+.topo {
+        width: 1200px;
+        color: #ffffff;
+}
+.topo-title{
+    font-size: 72px;
+    text-align: center;
+    margin-top: 200px;
+
+}
+.topo-description {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+.list {
+    text-align: center;
+    justify-content: space-around;
+}
+.list p {
+    font-size: 26px;
+    margin: 35px 0 0px 0;
+
+}   
+.list span {
+    color: #bdbdbd;
+    font-size: 20px;
+}
+.list img {
+    height: 35px;
+
+}
+
+
+.almoco {
+    display: flex;
+    width: 1200px;
+    background: linear-gradient(rgb(27, 27, 27), #272727);
+    border-radius: 10px;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.almoco h1 {
+    margin-top: 35px;
+    font-size: 36px;
+    color: #34C759;
+}
+.almoco h5 {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    font-size: 18px
+}
+.almoco-box {
+    display: flex;
+    width: 790px;
+    height: 307px;
+    margin-bottom: 30px;
+}
+.almoco-list p {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.almoco-list apan{
+    font-size: 12px;
+    color: #bdbdbd;
+
+}
+.almoco-list hr {
+    margin: 5px 0;
+}
+.almoco a{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #34C759;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #34C759;
+}
+
+.servicos {
+    width: 1200px;
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 24px;
+}
+.servicos p {
+    margin-top: 20px;
+}
+
+.slide {
+    background-image: url(../img/food-3309418_1920\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 550px;
+
+}
+.rgba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: linear-gradient(to right, transparent, rgba(2, 1, 1, 0.98));
+
+}
+.slide-area {
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide-descricao h1 {
+    color: #34C759;
+    font-size: 36px;
+}
+.slide-descricao p {
+    font-size: 26px;
+}
+
+
+footer {
+    height: 150px;
+    width: 100vw;
+    
+}
