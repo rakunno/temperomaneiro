@@ -1,0 +1,29 @@
+:root {
+    --step--2: clamp(0.78rem, 0.72rem + 0.33vw, 0.96rem);
+    --step--1: clamp(0.94rem, 0.84rem + 0.48vw, 1.20rem);
+    --step-0: clamp(1.13rem, 0.99rem + 0.68vw, 1.50rem);
+    --step-1: clamp(1.35rem, 1.16rem + 0.95vw, 1.88rem);
+    --step-2: clamp(1.62rem, 1.36rem + 1.32vw, 2.34rem);
+    --step-3: clamp(1.94rem, 1.59rem + 1.79vw, 2.93rem);
+    --step-4: clamp(2.33rem, 1.85rem + 2.42vw, 3.66rem);
+    --step-5: clamp(2.80rem, 2.15rem + 3.23vw, 4.58rem);
+    --color-1: #34C759;
+    --color-2: #fff;
+    --color-3: rgb(223, 223, 223);
+    --color-4: rgb(173, 173, 173);
+  }
+
+
+  /* :root {
+    --step--2: clamp(0.78rem, 0.72rem + 0.33vw, 0.96rem);
+    --step--1: clamp(0.94rem, 0.84rem + 0.48vw, 1.20rem);
+    --step-0: clamp(1.13rem, 0.99rem + 0.68vw, 1.50rem);
+    --step-1: clamp(1.35rem, 1.16rem + 0.95vw, 1.88rem);
+    --step-2: clamp(1.62rem, 1.36rem + 1.32vw, 2.34rem);
+    --step-3: clamp(1.94rem, 1.59rem + 1.79vw, 2.93rem);
+    --step-4: clamp(2.33rem, 1.85rem + 2.42vw, 3.66rem);
+    --step-5: clamp(2.80rem, 2.15rem + 3.23vw, 4.58rem);
+    --color-1: #34C759;
+    --color-2: #fff;
+    --color-3: rgb(223, 223, 223);
+  } */
