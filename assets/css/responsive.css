@@ -96,7 +96,7 @@
         margin: 15px 0;
     }
     .lista {
-        margin: 0 50px;
+        margin: 0 10px;
     }
     .slide-descricao {
         width: 100%;
@@ -114,5 +114,15 @@
     }
     footer ul {
         display: none;
+    }
+    .sobremesa, .sobremesa img{
+        width: 320px;
+    }
+    .almoco-lista {
+        margin-bottom: 50px;
+    }
+    .almoco-lista img {
+        width: 320px;
+        margin-bottom: 50px;
     }
 }
