@@ -1,0 +1,118 @@
+@media (max-width: 1024px) {
+    body {
+        font-size: var(--step--2);
+    }
+    header .logo {
+        margin-left: 15px;
+    }
+    .header ul {
+        margin-right: 15px;
+    }
+    .sobremesa {
+        width: 330px;
+    }
+    .sobremesa-img img{
+        width: 330px;
+    }
+    .avaliacao {
+        width: 330px;
+    }
+
+}
+
+@media(max-width: 768px) {
+  
+    .icone {
+        width: 250px;
+    }
+    .section-smal {
+        margin: 50px 0;
+    }
+    .almoco-lista {
+        justify-content: center;
+    }
+    .almoco-lista img {
+        margin-bottom: 35px;
+        order: -1;
+        align-items: center;
+    }
+    .lista {
+        margin-bottom: 35px;
+    }
+
+    .slide, .slide-area {
+        height: 350px;
+    }
+    .calendario {
+        display: none;
+    }
+    .evento-a, .evento-b {
+        margin: 15px 0;
+    }
+    .sobremesa {
+        width: 350px;
+    }
+    .sobremesa-img img{
+        width: 350px;
+    }
+    .avaliacao {
+        width: 350px;
+    }
+    .sobremesa-area {
+        justify-content: space-around;
+
+    }
+    .avaliacoes {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .avaliacao {
+        width: 700px;
+        margin-bottom: 15px;
+    }
+    .formulario {
+        align-items: center;
+        flex-direction: column;
+    }
+    .form {
+        margin-top: 25px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .section-smal {
+        text-align: center;
+    }
+    .header {
+        padding: 0 10px;
+    }
+    .topo h1 {
+        padding: 0 25px;
+        font-size: var(--step-3);
+    }
+    .icone {
+        margin: 15px 0;
+    }
+    .lista {
+        margin: 0 50px;
+    }
+    .slide-descricao {
+        width: 100%;
+    }
+    .slide {
+        background-size: 100vw 100%;
+    }
+   
+    .form {
+        width: 100%;
+    }
+    .icone-eventos img {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    footer ul {
+        display: none;
+    }
+}

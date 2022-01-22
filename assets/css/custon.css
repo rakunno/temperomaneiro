@@ -117,6 +117,25 @@ hr {
     border: solid 1px var(--color-1);
     margin: 15px 0;
 }
+.icones-eventos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.icone-eventos {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icone-eventos span {
+    color: var(--color-3);
+}
+
+
+
+
 .icones {
     width: 100%;
     display: flex;
@@ -159,12 +178,10 @@ hr {
 }
 .slide-descricao h1 {
     color: #34C759;
-    font-size: 36px;
     margin: 35px 0;
     text-shadow: rgb(0, 0, 0) 5px 5px 6px;
 }
 .slide-descricao p {
-    font-size: 26px;
     text-shadow: rgb(0, 0, 0) 5px 5px 6px;
 
 }
@@ -327,8 +344,9 @@ hr {
 .formulario {
     display: flex;
     justify-content: space-between;
-
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 25px;
 }
 input[type=text] {
     border: 1px solid #34C759;
